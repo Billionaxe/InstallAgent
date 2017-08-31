@@ -100,7 +100,7 @@ runState = errNormal			' Tracks the error condition in the script and determines
 CONST bolWarningsOn = False					' If the agent fails, the user gets a popup message.  Change this to False if you don't want them to be informed
 
 CONST strPingAddress = "8.8.8.8"				' Address to ping to check connectivity.  Usually this will be your N-central server's FQDN
-CONST strSOAgentEXE = "SOAgentSetup.exe"			' The name of the SO-level agent installer file that is stored within NETLOGON\strAgentFolder
+CONST strSOAgentEXE = "100WindowsAgentSetup.exe"			' The name of the SO-level agent installer file that is stored within NETLOGON\strAgentFolder
 
 CONST intPingTolerance = 20							' % value.  If you have networks that drop packets under normal conditions, raise this value
 CONST intPingTestCount = 10							' Increase this to make the script perform more pings during the Connectivity test
